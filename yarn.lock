@@ -4189,6 +4189,10 @@ react-dom@^15.4.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
+react-https-redirect@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/react-https-redirect/-/react-https-redirect-1.0.7.tgz#0b444d0b9e508ecd68d94d875fd1a76eca58a053"
+
 react-router@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-3.0.0.tgz#3f313e4dbaf57048c48dd0a8c3cac24d93667dff"
