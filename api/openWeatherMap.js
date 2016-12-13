@@ -3,7 +3,7 @@ var axios = require('axios');
 const OPEN_WEATHER_MAP = 'http://api.openweathermap.org/data/2.5/weather?&units=metric&appid=8f6dd315a0dd61d804ea908690d2227d'
 
 module.exports = {
-  getTemp: (location) => {
+  getTemp: function (location){
   let encodeLocation = encodeURIComponent(location);
   let requestUrl = `${OPEN_WEATHER_MAP}&q=${encodeLocation}`;
 
