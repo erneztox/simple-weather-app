@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Message from './weatherMessage.js';
 import Form from './weatherForm.js';
-import openWeatherMap from './api/openWeatherMap.js'
-import HttpsRedirect from 'react-https-redirect';
+import openWeatherMap from './api/openWeatherMap.js';
 
 export default class Weather extends Component{
   constructor(){
@@ -29,11 +28,9 @@ export default class Weather extends Component{
     let {location, temp, isLoading} = this.state;
     return(
       <div>
-        <HttpsRedirect>
           <h3>Get Weather</h3>
           <Form onSearch={this.handleSearch}/>
           {isLoading ? <h3>Loading...</h3> : <Message location={location} temp={temp}/>}
-        </HttpsRedirect>
       </div>
     );
   }

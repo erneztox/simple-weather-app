@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Examples extends Component{
-  render(){
-    return(
+const Examples = (props) => {
+  return(
+    <div>
       <h3>Weather Component</h3>
-    );
-  }
+      <h3>Weather Component</h3>
+      <h3>Weather Component</h3>
+      <h3>Weather Component</h3>
+    </div>
+  );
 }
+
+export default Examples
