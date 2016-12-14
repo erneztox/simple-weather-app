@@ -30,7 +30,7 @@ export default class Weather extends Component{
       <div>
           <h3>Get Weather</h3>
           <Form onSearch={this.handleSearch}/>
-          {isLoading ? <h3>Loading...</h3> : <Message location={location} temp={temp}/>}
+          {isLoading ? <h4>Loading...</h4> : <Message location={location} temp={temp}/>}
       </div>
     );
   }
