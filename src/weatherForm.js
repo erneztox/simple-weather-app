@@ -13,8 +13,12 @@ export default class Form extends Component{
   render(){
     return(
       <form onSubmit={this.onFormSubmit}>
-        <input type="text" ref="location"/>
-        <button>Get Weather</button>
+        <div className="mdl-textfield mdl-js-textfield">
+          <input className="mdl-textfield__input" type="text" ref="location"/>
+        </div>
+        <div>
+          <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" >Get Weather</button>
+        </div>
       </form>
     );
   }

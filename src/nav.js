@@ -5,9 +5,9 @@ export default class Nav extends Component{
   render(){
     return(
       <div>
-        <Link to="/">Get Weather</Link>
-        <Link to="/about">About</Link>
-        <Link to="/examples">Examples</Link>
+        <Link to="/" className="mdl-button mdl-js-button mdl-js-ripple-effect">Get Weather</Link>
+        <Link to="/about" className="mdl-button mdl-js-button mdl-js-ripple-effect">About</Link>
+        <Link to="/examples" className="mdl-button mdl-js-button mdl-js-ripple-effect">Examples</Link>
       </div>
     );
   }
